@@ -1,4 +1,4 @@
-<img width="2230" height="256" alt="GDF-MPD_logo group" src="https://github.com/worldbank/GDF-MPD/blob/main/docs/logos/GDF-MPD_logo%20group.png" />
+<img width="2230" height="256" alt="GDF-MPD_logo group" src="https://github.com/worldbank/GDF-MPD/tree/main/docs/images/GDF-MPD_logo%20group.png" />
 
 # Global Data Facility - Mobile Phone Data for Policy
 
