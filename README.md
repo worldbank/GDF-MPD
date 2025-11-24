@@ -1,3 +1,4 @@
+<img width="1934" height="614" alt="Logo - Global Data Facility _Final" src="https://github.com/user-attachments/assets/2e0b914c-cbc5-4ea5-908b-2510a444f661" />
 # Global Data Facility - Mobile Phone Data for Policy
 
 ### 🌟 [Visit the Official GDF-MPD Documentation Portal](https://worldbank.github.io/GDF-MPD/) 🌟
