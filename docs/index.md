@@ -1,10 +1,20 @@
-# GDF-MPD Project Portal
-Welcome to the integration of mobile phone data in national statistical systems.
+# Welcome to the GDF-MPD Portal
 
-## Project Outputs
-* [Project Preparation Documents](assets/pdfs/)
-* [Training Material](training/)
-* [Methodology & Code](methods/)
+This portal organizes resources for the World Bank project on integrating mobile phone data into national statistics.
 
-### Governance Documents
-* [Download the Project Document](../docs/assets/pdfs/project_document.pdf)
+## 📚 Project Documentation
+* **[Governance & Design](./governance/index.md)**
+    * *Project Concepts, Data Privacy Protocols, and MOUs.*
+* **[Training Academy](./training/index.md)**
+    * *Training modules, slides, and recorded workshops.*
+* **[Methods & Code](./methods/index.md)**
+    * *Technical tutorials for Poverty Mapping and Displacement.*
+
+## 📥 Quick Downloads
+* [Download Project Appraisal Document](../assets/pdfs/project_document.pdf)
+* [Download Methodology Paper](../assets/pdfs/methodology_v1.pdf)
+
+---
+### For Developers
+The source code for this project is hosted in this repository.
+[View Repository on GitHub](https://github.com/worldbank/GDF-MPD)
