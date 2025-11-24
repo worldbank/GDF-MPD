@@ -1,4 +1,4 @@
-<img width="1934" height="614" alt="Logo - Global Data Facility _Final" src="https://github.com/user-attachments/assets/2e0b914c-cbc5-4ea5-908b-2510a444f661" />
+<img width="2230" height="256" alt="GDF-MPD_logo group" src="https://github.com/user-attachments/assets/a9a59bfe-cc26-4e76-b4a6-cddeefc377f5" />
 
 # Global Data Facility - Mobile Phone Data for Policy
 
