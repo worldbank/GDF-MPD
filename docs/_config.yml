@@ -1,11 +1,11 @@
 # Book settings
-title:
-author: Development Data Group
-logo: docs/images/logo.png
+title: GDF-MPD Documentation Portal
+author: GDF-MPD
+logo: docs/images/Logo - Global Data Facility _Final.png
 only_build_toc_files: false
 
 repository:
-  url: https://github.com/worldbank/template
+  url: https://github.com/worldbank/GDF-MPD
   branch: main
 
 #######################################################################################
@@ -16,7 +16,7 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://worldbank.github.io/template
+  baseurl: https://worldbank.github.io/GDF-MPD
   extra_footer: |
     <div>
      Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
