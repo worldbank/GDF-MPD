@@ -5,17 +5,11 @@ parts:
   - caption: Essential Resources
     numbered: True
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
-      - file: notebooks/bibliography.ipynb
-  - caption: Workshops
-    chapters:
-      - file: docs/folders-and-naming
-      - file: docs/git-workflows
-      - file: docs/notebooks-workflows
-      - file: docs/presenting-results
+      - file: docs/Essential resources/essential_resources_index
   - caption: Methods & Code
+    chapters:
+      - file: docs/methods and code/methods_code_index
+  - caption: Workshops
     chapters:
       - file: docs/gallery
   - caption: Additional Resources
