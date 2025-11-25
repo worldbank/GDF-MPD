@@ -2,7 +2,7 @@ format: jb-book
 root: homepage
 
 parts:
-  - caption: Essential Resources
+  - caption: [Essential Resources](docs/essential-resources/essential_resources_index)
     chapters:
       - file: docs/essential-resources/theory-of-change
   - caption: Methods & Code
