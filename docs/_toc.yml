@@ -3,9 +3,8 @@ root: homepage
 
 parts:
   - caption: Essential Resources
-    numbered: True
     chapters:
-      - file: docs/essential-resources/essential_resources_index
+      - file: docs/essential-resources/theory-of-change
   - caption: Methods & Code
     chapters:
       - file: docs/methods-and-code/methods_code_index
