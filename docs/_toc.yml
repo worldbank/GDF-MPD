@@ -7,10 +7,11 @@ chapters:
       - file: docs/essential-resources/theory-of-change
   - file: docs/methods-and-code/methods_code_index
     sections:
-      - file: docs/methods-and-code/methods_code_index
+      - file: docs/methods-and-code/use_case_migration
   - file: docs/workshops/workshops_index
     sections:
-      - file: docs/workshops/workshops_index
+      - file: docs/workshops/workshop_DC_launch
+      - file: docs/workshops/workshop_SADC
   - file: docs/additional-resources/additional_resources_index
     sections:
       - url: https://unstats.un.org/bigdata/task-teams/mobile-phone/index.cshtml
