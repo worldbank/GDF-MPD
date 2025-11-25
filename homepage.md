@@ -4,14 +4,14 @@
 :gutter: 2
 
 :::{grid-item-card} Essential Resources
-:link: docs/Essential resources/essential_resources_index
+:link: docs/essential-resources/essential_resources_index
 :link-type: doc
 
 Theory of Change, Maturity Assessment, MoU templates, and more.
 :::
 
 :::{grid-item-card} Methods & Code
-:link: docs/methods and code/methods_code_index
+:link: docs/methods-and-code/methods_code_index
 :link-type: doc
 
 Methodology description and code for specific use cases such as Tourism statistics, Migration statistics, Urban mobility.
@@ -21,11 +21,13 @@ Methodology description and code for specific use cases such as Tourism statisti
 ::::{grid}
 :gutter: 2
 
-:::{grid-item-card} [Workshops](https://datapartnership.github.io/lebanon-economic-monitor)
+:::{grid-item-card} Workshops
+:link: docs/workshops/workshops_index
+:link-type: doc
 Resources shared during in-person workshops
 :::
 
-:::{grid-item-card} [Additional Resources](https://datapartnership.github.io/morocco-earthquake-impact)
+:::{grid-item-card} Additional Resources
 Useful resources from relevant partners
 :::
 ::::
