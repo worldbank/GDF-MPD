@@ -5,10 +5,10 @@ parts:
   - caption: Essential Resources
     numbered: True
     chapters:
-      - file: docs/Essential resources/essential_resources_index
+      - file: docs/essential-resources/essential_resources_index
   - caption: Methods & Code
     chapters:
-      - file: docs/methods and code/methods_code_index
+      - file: docs/methods-and-code/methods_code_index
   - caption: Workshops
     chapters:
       - file: docs/workshops/workshops_index
