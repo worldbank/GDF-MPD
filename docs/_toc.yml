@@ -11,7 +11,7 @@ parts:
       - file: docs/methods and code/methods_code_index
   - caption: Workshops
     chapters:
-      - file: docs/gallery
+      - file: docs/workshops/workshops_index
   - caption: Additional Resources
     chapters:
       - url: https://unstats.un.org/bigdata/task-teams/mobile-phone/index.cshtml
