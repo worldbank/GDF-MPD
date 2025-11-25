@@ -5,9 +5,12 @@ chapters:
   - file: docs/essential-resources/essential_resources_index
     sections:
       - file: docs/essential-resources/theory-of-change
+      - file: docs/essential-resources/maturity_assessment_framework
+      - file: docs/essential-resources/mou_templates
   - file: docs/methods-and-code/methods_code_index
     sections:
       - file: docs/methods-and-code/use_case_migration
+      - file: docs/methods-and-code/use_case_tourism
   - file: docs/workshops/workshops_index
     sections:
       - file: docs/workshops/workshop_DC_launch
