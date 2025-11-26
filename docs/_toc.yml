@@ -15,6 +15,7 @@ chapters:
     sections:
       - file: docs/workshops/workshop_DC_launch
       - file: docs/workshops/workshop_SADC
+  - file: docs/training-material/training_material_index
   - file: docs/additional-resources/additional_resources_index
     sections:
       - url: https://unstats.un.org/bigdata/task-teams/mobile-phone/index.cshtml
