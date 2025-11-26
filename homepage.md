@@ -32,7 +32,9 @@ Methodology description and code for specific use cases such as Tourism statisti
 Resources shared during in-person workshops
 :::
 
-:::{grid-item-card} Additional Resources
-Useful resources from relevant partners
+:::{grid-item-card} Training material
+:link: docs/training-material/training_material_index
+:link-type: doc
+Key presentations from Foundations Training courses
 :::
 ::::
