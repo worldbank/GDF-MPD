@@ -37,7 +37,7 @@ Who executes scripts and produces results (Data Processor bis)? $\rightarrow$ MN
 :::
 ::::
 
-```{figure} docs/images/modelA.png
+```{figure} ./docs/images/modelA.png
 ---
 name: modelA
 width: 80%
