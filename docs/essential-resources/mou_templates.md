@@ -111,13 +111,13 @@ alt: Schematic figure showing the architecture of data pipeline model AB
 (download-templates)=
 ## Download MoU templates
 
-[MoU template - model A (English)](MoU_template_WorldBank_modelA_EN.docx
+[MoU template - model A (English)](MoU_template_WorldBank_modelA_EN.docx)
 
 MoU template - model A (Fench)(*available soon*)
 
-[MoU template - model B (English)](MoU_template_WorldBank_modelA_EN.docx)
+[MoU template - model B (English)](MoU_template_WorldBank_modelB_EN.docx)
 
-[MoU template - model B (French)](MoU_template_WorldBank_modelA_FR.docx)
+[MoU template - model B (French)](MoU_template_WorldBank_modelB_FR.docx)
 
 [MoU template - model AB (English)](MoU_template_WorldBank_modelAB_EN.docx)
 
