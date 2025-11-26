@@ -15,7 +15,7 @@ Although the scope and content of an MoU may vary across contexts, it is desirab
 
 To support World Bank task teams and others in formalizing data access modalities, **MoU templates** were produced under the GDF-MPD project and cover the essential aspects described above. Three templates were developed, coinciding with three distinct configurations of data sharing modalities (also called "data pipeline models"). The templates are available in English and French and can be [downloaded at the bottom of this page](#download-templates). Details on the characteristics of each of the three models are provided below.
 
-```{warning} Adjust MoU templates to country context
+```{warning}
 MoU templates accomodate archetypal data pipeline architectures but are only intended to provide a general structure with key content and were not designed as one-size-fits-all tools. They should always be adjusted to country specific needs and context. Particular attention should be paid to aligning the MoU with the relevant regulatory framework. 
 ```
 
@@ -111,4 +111,14 @@ alt: Schematic figure showing the architecture of data pipeline model AB
 (download-templates)=
 ## Download MoU templates
 
-[MoU template - model A (English)](MoU_template_WorldBank_modelA_EN.docx)
+[MoU template - model A (English)](MoU_template_WorldBank_modelA_EN.docx
+
+MoU template - model A (Fench)(*available soon*)
+
+[MoU template - model B (English)](MoU_template_WorldBank_modelA_EN.docx)
+
+[MoU template - model B (French)](MoU_template_WorldBank_modelA_FR.docx)
+
+[MoU template - model AB (English)](MoU_template_WorldBank_modelAB_EN.docx)
+
+[MoU template - model AB (French)](MoU_template_WorldBank_modelAB_FR.docx)
