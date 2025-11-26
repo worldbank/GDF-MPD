@@ -20,7 +20,14 @@ MoU templates accomodate archetypal data pipeline architectures but are only int
 ```
 
 ## The three main data pipeline models
-- **MNO-centric model** (*model A*)
+### Definition of three data tiers
+
+- 🔴**Tier I "nano" data**: raw data records of the form `<user ID , timestamp , antenna ID>`.
+- 🔴**Tier I "micro" data**: device-level summary measures of Tier I “nano” data for a specified  time period.
+- 🟠**Tier II data**: summary measure of Tier I data (from a given MNO) aggregated at the level of spatial units for a specified time period.
+- 🟢**Tier III data**: statistics on a well-defined target population, derived from the combination of Tier II data (possibly from multiple MNOs) and non-MNO data (e.g. census, household surveys).
+
+### MNO-centric model (*model A*)
 
 ::::{grid}
 :gutter: 2
@@ -47,6 +54,61 @@ alt: Schematic figure showing the architecture of data pipeline model A
 **Schematic illustration of the architecture of data pipeline model A.**
 ```
 
+### Regulator-centric model (*model B*)
+
+::::{grid}
+:gutter: 2
+
+:::{grid-item-card} Roles assignment in Regulator-centric Model
+:columns: 12
+
+| Role | Actor |
+| :--- | :--- |
+| **Data Custodian** - Stores & manages data | Regulator |
+| **Data Controller** - Decides data usage | NSO / Gov Agencies |
+| **Data Processor** - Develops methods & scripts | NSO |
+| **Data Processor** - Runs scripts | NSO |
+:::
+::::
+
+```{figure} /docs/images/modelB.png
+---
+name: modelB
+width: 90%
+align: center
+alt: Schematic figure showing the architecture of data pipeline model B
+---
+**Schematic illustration of the architecture of data pipeline model B.**
+```
+
+### Hybrid model (*model AB*)
+
+::::{grid}
+:gutter: 2
+
+:::{grid-item-card} Roles assignment in Hybrid Model
+:columns: 12
+
+| Role | Actor |
+| :--- | :--- |
+| **Data Custodian** - Stores & manages data | MNO |
+| **Data Controller** - Decides data usage | NSO / Gov Agencies |
+| **Data Processor** - Develops methods & scripts | NSO |
+| **Data Processor** - Runs scripts | NSO |
+:::
+::::
+
+```{figure} /docs/images/modelAB_1.png
+---
+name: modelAB_1
+width: 90%
+align: center
+alt: Schematic figure showing the architecture of data pipeline model AB
+---
+**Schematic illustration of the architecture of data pipeline model AB.**
+```
+
 (download-templates)=
 ## Download MoU templates
 
+[MoU template - model A (English)](MoU_template_WorldBank_modelA_EN.docx)
