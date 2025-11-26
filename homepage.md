@@ -1,3 +1,8 @@
+```{figure} docs/images/GDF-MPD_logo_group.png
+---
+---
+```
+
 # Welcome to the GDF-MPD Documentation Portal
 
 ::::{grid}
