@@ -1,5 +1,5 @@
 # MoU templates
-
+## What are MoU templates useful for?
 The integration of Mobile Network Operator (MNO) data into national data systems is a complex process, which first requires securing data access and agreeing on overarching principles of collaboration between key stakeholders such as MNOs, National Statistical Offices (NSO), Regulatory Authorities (RA), Data Protection Authorities (DPA), and others. This critical milestone is usually achieved through the signing of a **Memorandum of Understanding** (MoU). 
 
 Although the scope and content of an MoU may vary across contexts, it is desirable that it covers at least the following 5 key pillars:
@@ -13,7 +13,9 @@ Although the scope and content of an MoU may vary across contexts, it is desirab
 [GPSDD - A Roadmap to Accessing Mobile Network Data for Statistics](https://www.data4sdgs.org/roadmap-accessing-mobile-network-data-statistics)
 ```
 
-To support World Bank task teams and others in formalizing data access modalities, **MoU templates** were produced under the GDF-MPD project and cover the essential aspects described above. Three templates were developed, coinciding with three distinct configurations of data sharing modalities (also called "data pipeline models")
+To support World Bank task teams and others in formalizing data access modalities, **MoU templates** were produced under the GDF-MPD project and cover the essential aspects described above. Three templates were developed, coinciding with three distinct configurations of data sharing modalities (also called "data pipeline models"). 
+
+## 
 - **MNO-centric model** (*model A*)
 ```{note}
 Who stores and manages data (Data Custodian)? $\rightarrow$ MNO
@@ -37,7 +39,7 @@ Who executes scripts and produces results (Data Processor bis)? $\rightarrow$ MN
 :::
 ::::
 
-```{figure} ./docs/images/modelA.png
+```{figure} /docs/images/modelA.png
 ---
 name: modelA
 width: 80%
