@@ -2,7 +2,7 @@
 
 # Global Data Facility - Mobile Phone Data for Policy
 
-### 🌟 [Visit the Official GDF-MPD Documentation Portal](https://worldbank.github.io/GDF-MPD/) 🌟
+### 🌟 [Visit the Official GDF-MPD Knowledge Portal](https://worldbank.github.io/GDF-MPD/) 🌟
 *Access training materials, governance guides, and methodology documents in a user-friendly format.*
 
 ---
