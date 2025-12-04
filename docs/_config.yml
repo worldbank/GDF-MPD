@@ -22,7 +22,7 @@ html:
      Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
     </div>
     <div>
-        <b>This project is licensed under the MIT License together with the [World Bank IGO Rider](https://github.com/worldbank/metadata-editor/blob/main/WB-IGO-RIDER.md). The Rider is purely procedural: it reserves all privileges and immunities enjoyed by the World Bank, without adding restrictions to the MIT permissions. Please review both files before using, distributing or contributing.</b>
+        <b>This project is licensed under the MIT License together with the <a href="https://github.com/worldbank/metadata-editor/blob/main/WB-IGO-RIDER.md">World Bank IGO Rider</a>. The Rider is purely procedural: it reserves all privileges and immunities enjoyed by the World Bank, without adding restrictions to the MIT permissions. Please review both files before using, distributing or contributing.</b>
     </div>
   favicon: docs/images/favicon.ico
 
