@@ -13,10 +13,14 @@ The GDF–MPD window is the largest global initiative of its kind. We currently 
 
 The program provides training, technical assistance, and peer learning opportunities that build local capacity, strengthen governance, and accelerate the durable use of MPD for the public good. All resources curated by the program are hosted in this repository and organized for easy browsing on the **[GDF-MPD Project Portal](https://worldbank.github.io/GDF-MPD/)**.
 
+## Partneship
+
+The GDF–MPD window is a multi-partner initiative funded by the Government of Spain, Ministry of Economy, Commerce and Business, and jointly managed by the Development Economics Vice Presidency, the Poverty and Equity Global Practice, and the Digital Development Vice Presidency, in technical partnership with the International Telecommunication Union (ITU).
+
 ## Code of Conduct
 
 The project maintains a [Code of Conduct](docs/CODE_OF_CONDUCT.md) to ensure an inclusive and respectful environment for everyone. Please adhere to it in all interactions within our community. 
 
 ## License
 
-The project is licensed under the [**Mozilla Public License**](https://www.mozilla.org/en-US/MPL).
+This project is licensed under the MIT License together with the [World Bank IGO Rider](https://github.com/worldbank/metadata-editor/blob/main/WB-IGO-RIDER.md). The Rider is purely procedural: it reserves all privileges and immunities enjoyed by the World Bank, without adding restrictions to the MIT permissions. Please review both files before using, distributing or contributing.
