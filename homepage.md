@@ -3,7 +3,7 @@
 ---
 ```
 
-# Welcome to the GDF-MPD Documentation Portal
+# Welcome to the GDF-MPD Knowledge Portal
 
 ::::{grid}
 :gutter: 2
