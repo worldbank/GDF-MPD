@@ -2,11 +2,11 @@ format: jb-book
 root: homepage
 
 chapters:
-  - file: docs/essential-resources/essential_resources_index
+  - file: docs/project-resources/project_resources_index
     sections:
-      - file: docs/essential-resources/theory-of-change
-      - file: docs/essential-resources/maturity_assessment_framework
-      - file: docs/essential-resources/mou_templates
+      - file: docs/project-resources/theory-of-change
+      - file: docs/project-resources/maturity_assessment_framework
+      - file: docs/project-resources/mou_templates
   - file: docs/methods-and-code/methods_code_index
     sections:
       - file: docs/methods-and-code/use_case_migration

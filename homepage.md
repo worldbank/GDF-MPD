@@ -8,8 +8,8 @@
 ::::{grid}
 :gutter: 2
 
-:::{grid-item-card} Essential Resources
-:link: docs/essential-resources/essential_resources_index
+:::{grid-item-card} Project Resources
+:link: docs/project-resources/project_resources_index
 :link-type: doc
 
 Theory of Change, Maturity Assessment, MoU templates, and more.
