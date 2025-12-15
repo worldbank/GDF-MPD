@@ -45,4 +45,4 @@ The GDF–MPD window is the largest global initiative of its kind. We currently 
 
 The program provides training, technical assistance, and peer learning opportunities that build local capacity, strengthen governance, and accelerate the durable use of MPD for the public good. All resources curated by the program are hosted in this repository and organized for easy browsing on the **[GDF-MPD Knowledge Portal](https://worldbank.github.io/GDF-MPD/)**.
 
-*The GDF–MPD window is a multi-partner initiative funded by the Government of Spain, Ministry of Economy, Commerce and Business, and jointly managed by the Development Economics Vice Presidency, the Poverty and Equity Global Practice, and the Digital Development Vice Presidency, in technical partnership with the International Telecommunication Union (ITU).* test
+*The GDF–MPD window is a multi-partner initiative funded by the Government of Spain, Ministry of Economy, Commerce and Business, and jointly managed by the Development Economics Vice Presidency, the Poverty and Equity Global Practice, and the Digital Development Vice Presidency, in technical partnership with the International Telecommunication Union (ITU).*
