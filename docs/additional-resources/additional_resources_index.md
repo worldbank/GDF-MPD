@@ -4,8 +4,8 @@
 
 ## External links:
 
-[UN Big Data - Mobile Phone Data](https://unstats.un.org/bigdata/task-teams/mobile-phone/index.cshtml)
+<a href="https://unstats.un.org/bigdata/task-teams/mobile-phone/index.cshtml" target="_blank" rel="noopener noreferrer">UN Big Data - Mobile Phone Data</a>
 
-[Eurostat ESSnet MNO-MINDS](https://cros.ec.europa.eu/mno-minds)
+<a href="https://cros.ec.europa.eu/mno-minds" target="_blank" rel="noopener noreferrer">Eurostat ESSnet MNO-MINDS</a>
 
-[Eurostat Multi-MNO](https://cros.ec.europa.eu/landing-page/multi-mno-project)
+<a href="https://cros.ec.europa.eu/landing-page/multi-mno-project" target="_blank" rel="noopener noreferrer">Eurostat Multi-MNO</a>
