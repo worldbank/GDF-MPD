@@ -18,6 +18,7 @@ chapters:
   - file: docs/training-material/training_material_index
   - file: docs/additional-resources/additional_resources_index
     sections:
+      - file: docs/additional-resources/use-cases
       - url: https://unstats.un.org/bigdata/task-teams/mobile-phone/index.cshtml
         title: UN Big Data - Mobile Phone Data
       - url: https://cros.ec.europa.eu/mno-minds
