@@ -42,3 +42,5 @@ sphinx:
   config:
     html_show_copyright: false
     html_last_updated_fmt: "%b %d, %Y"
+    html_js_files:
+      - ../_static/external-links.js
