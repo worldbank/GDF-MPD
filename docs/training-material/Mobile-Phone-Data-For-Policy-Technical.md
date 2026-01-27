@@ -16,7 +16,7 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 | 2.4.1 Continuity Models| [YouTube video](https://youtu.be/89PUqmXzcUg) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.1.%20Continuity%20Models.pdf) |
 | 2.4.2 Detecting Meaningful Locations and Usual Environment | [YouTube video](https://youtu.be/UaJGGtbczfA) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.2%20Meaningful%20Locations%20and%20Usual%20Environment.pdf) |
 | 2.4.2 Calculating aggregates | [YouTube video](https://youtu.be/sx1HVjwKZBw) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.3.%20Calculating%20aggregates.pdf) |
-| 2.4.4 Aggregates to Estimates | [YouTube video](https://youtu.be/PpDBE-_nJQ0) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.4.%20Aggregates%20to%20Estimates.pdf) | [Review Activity](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.4.%20Review%20activity.pdf))|
+| 2.4.4 Aggregates to Estimates | [YouTube video](https://youtu.be/PpDBE-_nJQ0) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.4.%20Aggregates%20to%20Estimates.pdf) | [Review Activity](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.4.%20Review%20activity.pdf) |
 | 2.5.1 Aggregate and Indicator Quality Assessment | [YouTube video](https://youtu.be/n6ipRIVyUoE) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.5.1.%20Quality%20Assessment%20of%20Estimates%20for%20Decision-Making.pdf) |
 | **Use Case Examples** | | |
 | Transport Use Case | [YouTube video](https://youtu.be/f4AiprP69fQ) | [Insert Link] |
