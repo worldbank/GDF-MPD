@@ -18,6 +18,7 @@ chapters:
   - file: docs/training-material/training_material_index
     sections:
       - file: docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+      - file: docs/training-material/Mobile-Phone-Data-For-Policy-Technical
   - file: docs/additional-resources/additional_resources_index
     sections:
       - file: docs/additional-resources/use-cases
