@@ -6,6 +6,7 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 
 | Module | Video | Slides |
 | :--- | :--- | :--- |
+| Recap of MPD Fundamentals | {YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.0%20Recap%20of%20fundamentals%20of%20MPD%2C%20data%20types%2C%20data%20pipelines%2C%20data%20products.pdf) |
 | Designing MPD for Policy Pipelines 2.3.2 | [YouTube video](https://youtu.be/FVv5BJEECkk) | [Insert Link] |
 | Privacy-by-Design for MPD Pipelines 2.3.3 | [YouTube video](https://youtu.be/Xr6NcMWS2-0) | [Insert Link] |
 | Input Data Quality Assurance and Cleaning 2.3.4 | [YouTube video](https://youtu.be/BaV0FJtojdg) | [Insert Link] |
