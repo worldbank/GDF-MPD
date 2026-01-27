@@ -9,7 +9,7 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 | 2.0 Recap of MPD Fundamentals | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.0%20Recap%20of%20fundamentals%20of%20MPD%2C%20data%20types%2C%20data%20pipelines%2C%20data%20products.pdf) |
 | 2.1 Intro to Data Pipeline Use Cases | [YouTube vide] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.1%20Introduction%20to%20example%20use%20cases_%20data%20pipeline%20and%20stages_.pdf) |
 | 2.2.1 Mobile Phone Data | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.2.1.%20Mobile%20Phone%20Data.pdf) |
-| 2.3.1 Multi-MNO | [YouTube Video] [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.1%20Multi-MNO.pdf) |
+| 2.3.1 Multi-MNO | [YouTube Video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.1%20Multi-MNO.pdf) |
 | 2.3.2 Designing MPD for Policy Pipelines | [YouTube video](https://youtu.be/FVv5BJEECkk) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.2%20Designing%20Pipelines.pdf) |
 | 2.3.3 Privacy-by-Design for MPD Pipelines | [YouTube video](https://youtu.be/Xr6NcMWS2-0) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.3%20Privacy-by-design.pdf) |
 | 2.3.4 Input Data Quality Assurance and Cleaning | [YouTube video](https://youtu.be/BaV0FJtojdg) | [Slides] |
