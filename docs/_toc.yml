@@ -16,6 +16,7 @@ chapters:
       - file: docs/workshops/workshop_DC_launch
       - file: docs/workshops/workshop_SADC
   - file: docs/training-material/training_material_index
+      - file: docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
   - file: docs/additional-resources/additional_resources_index
     sections:
       - file: docs/additional-resources/use-cases
