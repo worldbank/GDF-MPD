@@ -1,6 +1,6 @@
-# Foundations in Mobile Phone Data for Policy - Practitioner
+# Foundations in Mobile Phone Data for Policy - Practioner
 
-Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Mobile Phone Data (MPD) for Policy - Practioner**
+Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Foundations in Mobile Phone Data (MPD) for Policy - Practioner**
 
 ## Course Modules
 
@@ -15,5 +15,9 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 | | Intro to MAF Tool | [Watch on YouTube](https://youtu.be/GoOh7pk1NO0) | [MAF Tool](https://github.com/worldbank/GDF-MPD/blob/main/docs/project-resources/GDF-MPD_maturity_framework.xlsx) |
 | | Overview of TOC | [Watch on YouTube](https://youtu.be/LAbY58QeM0U) | [MPD TOC](https://github.com/worldbank/GDF-MPD/blob/main/docs/project-resources/MPD4P-a-theory-of-change-chart.pdf) |
 | | Communicating an MPD Initiative | [Watch on YouTube](https://youtu.be/IDZhfgWKGyU) | |
+| | Institutionalization of MPD | [Watch on YouTube](https://youtu.be/dzDOtlLRYIE) | [MOU Templates](https://worldbank.github.io/GDF-MPD/docs/project-resources/mou_templates.html) |
+| | Country Perspectives on MPD Initiative | [Watch on YouTube](https://youtu.be/XLNZd-KEdIU) | |
+
+
 | | Institutionalization of MPD | [Watch on YouTube](https://youtu.be/dzDOtlLRYIE) | [MOU Templates](https://worldbank.github.io/GDF-MPD/docs/project-resources/mou_templates.html) |
 | | Country Perspectives on MPD Initiative | [Watch on YouTube](https://youtu.be/XLNZd-KEdIU) | |
