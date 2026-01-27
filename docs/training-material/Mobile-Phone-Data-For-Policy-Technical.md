@@ -6,15 +6,18 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 
 | Module | Video | Slides |
 | :--- | :--- | :--- |
-| Recap of MPD Fundamentals | {YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.0%20Recap%20of%20fundamentals%20of%20MPD%2C%20data%20types%2C%20data%20pipelines%2C%20data%20products.pdf) |
-| Designing MPD for Policy Pipelines 2.3.2 | [YouTube video](https://youtu.be/FVv5BJEECkk) | [Insert Link] |
-| Privacy-by-Design for MPD Pipelines 2.3.3 | [YouTube video](https://youtu.be/Xr6NcMWS2-0) | [Insert Link] |
-| Input Data Quality Assurance and Cleaning 2.3.4 | [YouTube video](https://youtu.be/BaV0FJtojdg) | [Insert Link] |
-| Continuity Models 2.4.1 | [YouTube video](https://youtu.be/89PUqmXzcUg) | [Insert Link] |
-| Detecting Meaningful Locations and Usual Environment 2.4.2 | [YouTube video](https://youtu.be/UaJGGtbczfA) | [Insert Link] |
-| Calculating aggregates 2.4.3 | [YouTube video](https://youtu.be/sx1HVjwKZBw) | [Insert Link] |
-| Aggregates to Estimates 2.4.4 | [YouTube video](https://youtu.be/PpDBE-_nJQ0) | [Insert Link] |
-| Aggregate and Indicator Quality Assessment 2.5.1 | [YouTube video](https://youtu.be/n6ipRIVyUoE) | [Insert Link] |
+| 2.0 Recap of MPD Fundamentals | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.0%20Recap%20of%20fundamentals%20of%20MPD%2C%20data%20types%2C%20data%20pipelines%2C%20data%20products.pdf) |
+| 2.1 Intro to Data Pipeline Use Cases | [YouTube vide] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.1%20Introduction%20to%20example%20use%20cases_%20data%20pipeline%20and%20stages_.pdf) |
+| 2.2.1 Mobile Phone Data | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.2.1.%20Mobile%20Phone%20Data.pdf) |
+| 2.3.1 Multi-MNO | [YouTube Video] [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.1%20Multi-MNO.pdf) |
+| 2.3.2 Designing MPD for Policy Pipelines | [YouTube video](https://youtu.be/FVv5BJEECkk) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.2%20Designing%20Pipelines.pdf) |
+| 2.3.3 Privacy-by-Design for MPD Pipelines | [YouTube video](https://youtu.be/Xr6NcMWS2-0) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.3%20Privacy-by-design.pdf) |
+| 2.3.4 Input Data Quality Assurance and Cleaning | [YouTube video](https://youtu.be/BaV0FJtojdg) | [Slides] |
+| 2.4.1 Continuity Models| [YouTube video](https://youtu.be/89PUqmXzcUg) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.1.%20Continuity%20Models.pdf) |
+| 2.4.2 Detecting Meaningful Locations and Usual Environment | [YouTube video](https://youtu.be/UaJGGtbczfA) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.2%20Meaningful%20Locations%20and%20Usual%20Environment.pdf) |
+| 2.4.2 Calculating aggregates | [YouTube video](https://youtu.be/sx1HVjwKZBw) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.3.%20Calculating%20aggregates.pdf) |
+| 2.4.4 Aggregates to Estimates | [YouTube video](https://youtu.be/PpDBE-_nJQ0) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.4.4.%20Aggregates%20to%20Estimates.pdf) |
+| 2.5.1 Aggregate and Indicator Quality Assessment 2.5.1 | [YouTube video](https://youtu.be/n6ipRIVyUoE) | [Slides] |
 | **Use Case Examples** | | |
 | Transport Use Case | [YouTube video](https://youtu.be/f4AiprP69fQ) | [Insert Link] |
 | Tourism Use Case | [YouTube video](https://youtu.be/2ZxCdnMZkJE) | [Insert Link] |
