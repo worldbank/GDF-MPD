@@ -1,6 +1,6 @@
 # Foundations in Mobile Phone Data for Policy - Practitioner
 
-Below is the curriculum, including links to video sessions and slides for our course on **Mobile Phone Data (MPD) for Policy - Practioner**
+Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Mobile Phone Data (MPD) for Policy - Practioner**
 
 ## Course Modules
 
