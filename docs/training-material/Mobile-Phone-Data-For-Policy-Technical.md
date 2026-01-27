@@ -4,8 +4,8 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 
 ## Course Modules
 
-| Module | Video | Slides |
-| :--- | :--- | :--- |
+| Module | Video | Slides | Activity |
+| :--- | :--- | :--- | :--- |
 | 2.0 Recap of MPD Fundamentals | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.0%20Recap%20of%20fundamentals%20of%20MPD%2C%20data%20types%2C%20data%20pipelines%2C%20data%20products.pdf) |
 | 2.1 Intro to Data Pipeline Use Cases | [YouTube vide] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.1%20Introduction%20to%20example%20use%20cases_%20data%20pipeline%20and%20stages_.pdf) |
 | 2.2.1 Mobile Phone Data | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.2.1.%20Mobile%20Phone%20Data.pdf) |
