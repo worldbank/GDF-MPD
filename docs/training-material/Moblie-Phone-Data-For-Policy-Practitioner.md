@@ -1,6 +1,10 @@
 # Foundations in Mobile Phone Data for Policy - Practioner
 
-Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Foundations in Mobile Phone Data (MPD) for Policy - Practioner**
+Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Foundations in Mobile Phone Data (MPD) for Policy: Design and Implementation of MPD Initatives - Pracitioner Track**
+
+**Overview:** This course provides a practical foundation for designing and delivering durable Mobile Phone Data (MPD) initiatives for statistics and policy. Participants learn how to move from concept to implementation—covering stakeholder engagement, data access negotiations, frameworks and the construction of robust data pipeline and partnership arrangements. Through real-world use cases such as dynamic population estimates, disaster response, and tourism, the course addresses key challenges around country readiness, data quality, governance, privacy, and communication.
+
+**Target Audience:** The course is tailored for senior leaders, policymakers, project managers and others interested in leading MPD initiatives and working in national statistical offices, ICT regulators, mobile-network operators, MDAs, multilaterals, academica and other organizations working in development data. 
 
 ## Course Modules
 
