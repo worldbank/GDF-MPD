@@ -17,7 +17,5 @@ Below is the curriculum, including links to video sessions and slides for the Gl
 | | Communicating an MPD Initiative | [Watch on YouTube](https://youtu.be/IDZhfgWKGyU) | |
 | | Institutionalization of MPD | [Watch on YouTube](https://youtu.be/dzDOtlLRYIE) | [MOU Templates](https://worldbank.github.io/GDF-MPD/docs/project-resources/mou_templates.html) |
 | | Country Perspectives on MPD Initiative | [Watch on YouTube](https://youtu.be/XLNZd-KEdIU) | |
-
-
 | | Institutionalization of MPD | [Watch on YouTube](https://youtu.be/dzDOtlLRYIE) | [MOU Templates](https://worldbank.github.io/GDF-MPD/docs/project-resources/mou_templates.html) |
 | | Country Perspectives on MPD Initiative | [Watch on YouTube](https://youtu.be/XLNZd-KEdIU) | |
