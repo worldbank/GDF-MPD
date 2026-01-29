@@ -1,6 +1,10 @@
-# Foundations in Mobile Phone Data for Policy - Technical
+# Foundations in Mobile Phone Data for Policy - Modern Data Processing and Prodcuts - Technical Track
 
-Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Foundations in Mobile Phone Data (MPD) for Policy - Technical**
+Below is the curriculum, including links to video sessions and slides for the Global Data Facility-Mobile Phone Data program's course on **Foundations in Mobile Phone Data (MPD) for Policy - Data Processing and Products - Technical Track**
+
+This course delivers a comprehensive overview of the technical knowledge needed to design and implement Mobile Phone Data pipelines and modern data products. It will cover the technical aspects and workflows, from data types, to data processing, and data quality and data product development. 
+
+**Target Audience:** Statisticians, Economists, Data Scientists, Data Engineers, Data Analyts, Technical Project Managers working in the public-private sector in data innovation for public policy and statistics. 
 
 ## Course Modules
 
