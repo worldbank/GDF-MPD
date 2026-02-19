@@ -11,7 +11,7 @@ This course delivers a comprehensive overview of the technical knowledge needed 
 | Module | Video | Slides | Activity |
 | :--- | :--- | :--- | :--- |
 | 2.0 Recap of MPD Fundamentals | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.0%20Recap%20of%20fundamentals%20of%20MPD%2C%20data%20types%2C%20data%20pipelines%2C%20data%20products.pdf) |
-| 2.1 Intro to Data Pipeline Use Cases | [YouTube vide] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.1%20Introduction%20to%20example%20use%20cases_%20data%20pipeline%20and%20stages_.pdf) |
+| 2.1 Intro to Data Pipeline and Use Cases | [Disaster Management](https://youtu.be/oNpgWplJDeI) [Transport](https://youtu.be/f4AiprP69fQ) [Tourism](https://youtu.be/2ZxCdnMZkJE) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.1%20Introduction%20to%20example%20use%20cases_%20data%20pipeline%20and%20stages_.pdf)|
 | 2.2.1 Mobile Phone Data | [YouTube video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.2.1.%20Mobile%20Phone%20Data.pdf) |
 | 2.3.1 Multi-MNO | [YouTube Video] | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.1%20Multi-MNO.pdf) |
 | 2.3.2 Designing MPD for Policy Pipelines | [YouTube video](https://youtu.be/FVv5BJEECkk) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.3.2%20Designing%20Pipelines.pdf) |
@@ -24,7 +24,4 @@ This course delivers a comprehensive overview of the technical knowledge needed 
 | 2.5.1 Aggregate and Indicator Quality Assessment Part 1 | [YouTube video](https://youtu.be/n6ipRIVyUoE) | [Slides](https://github.com/worldbank/GDF-MPD/blob/main/docs/training-material/2.5.1.%20Quality%20Assessment%20of%20Estimates%20for%20Decision-Making.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Flowminder/WB-GDF-Modern-Data-Workflows-Code-Tasks/blob/main/Coding%20Exercise%20Cohort%201%20-%202.5.1%20Step1_data_integrity_coverage.ipynb) | 
 |2.5.1 Aggregate and Indicator Quality Assessment Part 2 | | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Flowminder/WB-GDF-Modern-Data-Workflows-Code-Tasks/blob/main/Coding%20Exercise%20Cohort%201%20-%202.5.1%20Step2_od_analysis.ipynb) |
 |2.5.1 Aggregate and Indicator Quality Assessment Part 3 | | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Flowminder/WB-GDF-Modern-Data-Workflows-Code-Tasks/blob/main/Coding%20Exercise%20Cohort%201%20-%202.5.1%20Step3_interpretability_use.ipynb)|
-| **Use Case Examples** | | |
-| Transport Use Case | [YouTube video](https://youtu.be/f4AiprP69fQ) | [Insert Link] |
-| Tourism Use Case | [YouTube video](https://youtu.be/2ZxCdnMZkJE) | [Insert Link] |
-| Disaster Management Use Case | [YouTube video](https://youtu.be/oNpgWplJDeI) | [Insert Link] |
+
