@@ -60,6 +60,7 @@ TYPE_LABELS = {
     "workshop": "Workshop",
     "technical_assistance": "Technical assistance",
 }
+BOUNDARY_SOURCE = "Natural Earth"  # replaced by the "source" recorded in boundaries.geojson
 SMALL_COUNTRY_AREA = 6  # bbox area (sq. degrees) below which a marker is added
 
 FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
@@ -233,7 +234,7 @@ def base_map(features_by_iso, highlight_isos):
         interactive=False,
     ).add_to(m)
     m.get_root().html.add_child(
-        folium.Element('<div class="www-note">Illustrative data · boundaries: Natural Earth</div>')
+        folium.Element(f'<div class="www-note">Illustrative data · boundaries: {html.escape(BOUNDARY_SOURCE)}</div>')
     )
     return m
 
@@ -541,7 +542,9 @@ def activity_table(a, types) -> str:
 
 # --------------------------------------------------------------------------------------
 def main() -> None:
+    global BOUNDARY_SOURCE
     countries, activities, stages, boundaries = load()
+    BOUNDARY_SOURCE = boundaries.get("source", BOUNDARY_SOURCE)
     validate(countries, activities, stages, boundaries)
     c, a = prepare(countries, activities, stages)
     features = {f["properties"]["iso3"]: f for f in boundaries["features"]}

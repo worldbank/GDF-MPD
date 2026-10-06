@@ -99,9 +99,18 @@ The maps, charts, KPI tiles and tables in the *Where We Work* section are genera
 | `activities.csv` | event × country | `type` is `training`, `workshop` or `technical_assistance`. A regional workshop gets one row per participating country, all sharing the same `event_id`. `link` is a URL or a book page path without extension (e.g. `docs/workshops/workshop_SADC`) |
 | `status_history.csv` | stage change | Add a row whenever a country moves to a new stage, and also update `stage` and `stage_date` in `countries.csv` |
 | `stages.csv` | stage | Stage names and descriptions (up to 7 stages) |
-| `boundaries.geojson` | country shape | Simplified Natural Earth 1:50m boundaries; can be swapped for official boundaries with the same `iso3` property |
+| `boundaries.geojson` | country shape | Simplified World Bank Group official boundaries. Generated, do not edit by hand (see below) |
 
 On every push to `main`, the GitHub Action runs `scripts/build_where_we_work.py` before building the book. The script checks the data and stops the build with a list of problems if anything is invalid, such as an unknown country code or stage. Run it locally to check your changes first.
+
+To update the boundaries, get the full WBG admin-0 file (`wbg-adm0.geojson`, ~160 MB; git-ignored because of its size), place it in `data/where-we-work/` and run:
+
+```shell
+pip install shapely
+python scripts/prepare_boundaries.py data/where-we-work/wbg-adm0.geojson --source "World Bank Group official boundaries"
+```
+
+The script simplifies the shapes to about 400 KB, which is plenty for world-scale maps, and writes `boundaries.geojson`. Commit that file.
 
 ## Licensing
 
