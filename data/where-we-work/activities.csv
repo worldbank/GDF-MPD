@@ -1,0 +1,79 @@
+event_id,type,title,date_start,date_end,iso3,mode,participants,female_participants,purpose,link
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,BGD,in-person,14,7,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,COL,in-person,7,4,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,GHA,in-person,4,2,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,GMB,in-person,30,15,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,IDN,in-person,22,10,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,MAR,in-person,11,5,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,PHL,in-person,23,8,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,RWA,in-person,9,3,,docs/workshops/workshop_DC_launch
+WS-2024-01,workshop,Cohort 1 launch workshop (Washington DC),2024-10-21,2024-10-24,SEN,in-person,5,3,,docs/workshops/workshop_DC_launch
+TA-037,technical_assistance,Technical assistance mission,2024-12-03,2024-12-09,MAR,in-person,,,Data pipeline and infrastructure set-up,
+TA-035,technical_assistance,Technical assistance mission,2024-12-11,2024-12-17,BGD,in-person,,,Maturity assessment mission,
+TR-004,training,Foundations in MPD - Technical Track,2025-01-02,2025-01-05,LSO,virtual,24,9,,docs/training-material/Mobile-Phone-Data-For-Policy-Technical
+TA-014,technical_assistance,Technical assistance mission,2025-01-21,2025-01-27,ZAF,virtual,,,Indicator validation with line ministries,
+TA-039,technical_assistance,Technical assistance mission,2025-02-21,2025-03-02,PHL,virtual,,,Privacy and data governance review,
+TA-001,technical_assistance,Technical assistance mission,2025-02-23,2025-02-26,AGO,in-person,,,MoU drafting and negotiation support,
+TA-013,technical_assistance,Technical assistance mission,2025-02-25,2025-03-04,MOZ,in-person,,,Privacy and data governance review,
+TA-020,technical_assistance,Technical assistance mission,2025-03-03,2025-03-06,ZWE,in-person,,,Indicator validation with line ministries,
+TA-025,technical_assistance,Technical assistance mission,2025-03-04,2025-03-10,SEN,in-person,,,MoU drafting and negotiation support,
+TA-002,technical_assistance,Technical assistance mission,2025-03-09,2025-03-16,BWA,virtual,,,Indicator validation with line ministries,
+TA-029,technical_assistance,Technical assistance mission,2025-03-09,2025-03-15,COL,in-person,,,MoU drafting and negotiation support,
+TA-027,technical_assistance,Technical assistance mission,2025-03-13,2025-03-19,SEN,in-person,,,Maturity assessment mission,
+TA-018,technical_assistance,Technical assistance mission,2025-03-17,2025-03-24,ZMB,virtual,,,Indicator validation with line ministries,
+TA-008,technical_assistance,Technical assistance mission,2025-03-18,2025-03-21,SWZ,virtual,,,MoU drafting and negotiation support,
+TR-014,training,Foundations in MPD - Practitioner Track,2025-04-09,2025-04-10,PHL,in-person,28,13,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TR-001,training,Foundations in MPD - Practitioner Track,2025-04-13,2025-04-17,BWA,virtual,21,8,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,AGO,in-person,24,8,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,BWA,in-person,16,7,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,COD,in-person,13,6,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,COM,in-person,17,8,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,LSO,in-person,12,5,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,MDG,in-person,24,13,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,MOZ,in-person,30,16,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,MUS,in-person,28,12,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,MWI,in-person,5,2,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,NAM,in-person,22,9,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,SWZ,in-person,25,9,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,SYC,in-person,8,4,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,TZA,in-person,30,14,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,ZAF,in-person,26,12,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,ZMB,in-person,16,6,,docs/workshops/workshop_SADC
+WS-2025-01,workshop,SADC regional workshop (Johannesburg),2025-05-12,2025-05-15,ZWE,in-person,15,6,,docs/workshops/workshop_SADC
+TA-026,technical_assistance,Technical assistance mission,2025-05-16,2025-05-18,SEN,in-person,,,Maturity assessment mission,
+TR-013,training,Foundations in MPD - Practitioner Track,2025-05-23,2025-05-25,PHL,in-person,19,9,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TR-009,training,Foundations in MPD - Technical Track,2025-05-31,2025-06-01,ZAF,hybrid,12,6,,docs/training-material/Mobile-Phone-Data-For-Policy-Technical
+TA-017,technical_assistance,Technical assistance mission,2025-06-05,2025-06-07,ZMB,in-person,,,Indicator validation with line ministries,
+TA-023,technical_assistance,Technical assistance mission,2025-06-08,2025-06-15,GMB,in-person,,,Indicator validation with line ministries,
+TA-032,technical_assistance,Technical assistance mission,2025-07-07,2025-07-16,IDN,in-person,,,Data pipeline and infrastructure set-up,
+TR-008,training,Foundations in MPD - Technical Track,2025-07-09,2025-07-11,NAM,in-person,23,11,,docs/training-material/Mobile-Phone-Data-For-Policy-Technical
+TA-034,technical_assistance,Technical assistance mission,2025-07-11,2025-07-16,IDN,virtual,,,MoU drafting and negotiation support,
+TA-009,technical_assistance,Technical assistance mission,2025-09-06,2025-09-10,MDG,virtual,,,Indicator validation with line ministries,
+TR-007,training,Foundations in MPD - Practitioner Track,2025-09-29,2025-09-30,NAM,hybrid,19,10,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TR-012,training,Foundations in MPD - Practitioner Track,2025-10-02,2025-10-05,IDN,hybrid,4,1,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TR-011,training,Foundations in MPD - Technical Track,2025-10-26,2025-10-30,GMB,in-person,5,3,,docs/training-material/Mobile-Phone-Data-For-Policy-Technical
+TR-005,training,Foundations in MPD - Practitioner Track,2025-11-08,2025-11-11,MWI,hybrid,17,5,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TR-003,training,Foundations in MPD - Technical Track,2025-11-11,2025-11-12,LSO,virtual,12,4,,docs/training-material/Mobile-Phone-Data-For-Policy-Technical
+TA-030,technical_assistance,Technical assistance mission,2025-11-16,2025-11-22,COL,in-person,,,Indicator validation with line ministries,
+TR-002,training,Foundations in MPD - Practitioner Track,2025-12-11,2025-12-14,COD,hybrid,4,2,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TA-003,technical_assistance,Technical assistance mission,2025-12-30,2026-01-08,BWA,in-person,,,MoU drafting and negotiation support,
+TA-024,technical_assistance,Technical assistance mission,2026-01-18,2026-01-22,SEN,in-person,,,Indicator methodology review,
+TA-007,technical_assistance,Technical assistance mission,2026-01-20,2026-01-22,SWZ,virtual,,,MoU drafting and negotiation support,
+TR-010,training,Foundations in MPD - Practitioner Track,2026-01-20,2026-01-22,ZWE,in-person,5,2,,docs/training-material/Moblie-Phone-Data-For-Policy-Practitioner
+TA-012,technical_assistance,Technical assistance mission,2026-02-05,2026-02-09,MUS,in-person,,,Data pipeline and infrastructure set-up,
+TA-028,technical_assistance,Technical assistance mission,2026-03-23,2026-03-31,COL,in-person,,,Privacy and data governance review,
+TA-010,technical_assistance,Technical assistance mission,2026-04-03,2026-04-11,MUS,in-person,,,Privacy and data governance review,
+TA-016,technical_assistance,Technical assistance mission,2026-04-13,2026-04-16,ZMB,virtual,,,Privacy and data governance review,
+TA-031,technical_assistance,Technical assistance mission,2026-04-25,2026-04-28,IDN,in-person,,,Data pipeline and infrastructure set-up,
+TA-005,technical_assistance,Technical assistance mission,2026-05-06,2026-05-11,COD,in-person,,,Data pipeline and infrastructure set-up,
+TA-019,technical_assistance,Technical assistance mission,2026-05-18,2026-05-24,ZWE,in-person,,,Privacy and data governance review,
+TA-004,technical_assistance,Technical assistance mission,2026-05-23,2026-05-28,COM,virtual,,,MoU drafting and negotiation support,
+TA-033,technical_assistance,Technical assistance mission,2026-05-29,2026-06-03,IDN,in-person,,,Indicator methodology review,
+TA-021,technical_assistance,Technical assistance mission,2026-06-25,2026-06-27,RWA,virtual,,,Privacy and data governance review,
+TR-006,training,Foundations in MPD - Technical Track,2026-07-14,2026-07-17,MWI,hybrid,15,7,,docs/training-material/Mobile-Phone-Data-For-Policy-Technical
+TA-038,technical_assistance,Technical assistance mission,2026-08-09,2026-08-16,PHL,in-person,,,Indicator methodology review,
+TA-011,technical_assistance,Technical assistance mission,2026-08-12,2026-08-15,MUS,in-person,,,Data pipeline and infrastructure set-up,
+TA-006,technical_assistance,Technical assistance mission,2026-08-17,2026-08-21,COD,virtual,,,Indicator methodology review,
+TA-036,technical_assistance,Technical assistance mission,2026-08-20,2026-08-25,BGD,in-person,,,Indicator methodology review,
+TA-022,technical_assistance,Technical assistance mission,2026-08-20,2026-08-23,GMB,in-person,,,Indicator validation with line ministries,
+TA-015,technical_assistance,Technical assistance mission,2026-09-11,2026-09-17,ZAF,in-person,,,MoU drafting and negotiation support,

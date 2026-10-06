@@ -18,6 +18,8 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
+      - name: Build Where We Work maps and charts
+        run: python scripts/build_where_we_work.py
       - name: Build Juputer Book Documentation
         run: |
           jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml
