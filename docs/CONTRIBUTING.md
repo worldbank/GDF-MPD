@@ -80,13 +80,28 @@ To build the documentation locally, after (1) and (2) above, please follow these
     pip install -r docs/requirements.txt
   ```
 
-- Build the documentation:
+- Build the Where We Work maps and charts (see below), then the documentation:
 
   ```shell
+    python scripts/build_where_we_work.py
     jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml
   ```
 
 The generated documentation will be available in the `_build/html` directory. Open the `index.html` file in a web browser to view it.
+
+## Updating the Where We Work data
+
+The maps, charts, KPI tiles and tables in the *Where We Work* section are generated from CSV files in `data/where-we-work/`. To update them, edit the CSVs only. You can do this in Excel or directly in the GitHub web editor.
+
+| File | One row per | Notes |
+|---|---|---|
+| `countries.csv` | country | `iso3` must be a valid ISO 3166 alpha-3 code; `stage` is a number from `stages.csv`; milestone columns are `yes`/`no` |
+| `activities.csv` | event × country | `type` is `training`, `workshop` or `technical_assistance`. A regional workshop gets one row per participating country, all sharing the same `event_id`. `link` is a URL or a book page path without extension (e.g. `docs/workshops/workshop_SADC`) |
+| `status_history.csv` | stage change | Add a row whenever a country moves to a new stage, and also update `stage` and `stage_date` in `countries.csv` |
+| `stages.csv` | stage | Stage names and descriptions (up to 7 stages) |
+| `boundaries.geojson` | country shape | Simplified Natural Earth 1:50m boundaries; can be swapped for official boundaries with the same `iso3` property |
+
+On every push to `main`, the GitHub Action runs `scripts/build_where_we_work.py` before building the book. The script checks the data and stops the build with a list of problems if anything is invalid, such as an unknown country code or stage. Run it locally to check your changes first.
 
 ## Licensing
 

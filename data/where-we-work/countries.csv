@@ -1,0 +1,26 @@
+iso3,country,region,cohort,focal_institution,stage,stage_date,maturity_assessment,mou_signed,data_received,indicators_produced,published,use_cases,notes
+AGO,Angola,Sub-Saharan Africa,2,National Statistics Office,2,2026-01-19,yes,no,no,no,no,Urban mobility,Illustrative data
+BWA,Botswana,Sub-Saharan Africa,2,National Statistics Office,4,2026-06-02,yes,yes,yes,no,no,Tourism,Illustrative data
+COM,Comoros,Sub-Saharan Africa,2,National Statistics Office,0,2025-05-01,no,no,no,no,no,,Illustrative data
+COD,Democratic Republic of the Congo,Sub-Saharan Africa,2,National Statistics Office,4,2026-05-24,yes,yes,yes,no,no,Migration,Illustrative data
+SWZ,Eswatini,Sub-Saharan Africa,2,National Statistics Office,3,2026-02-27,yes,yes,no,no,no,Disaster response; Urban mobility,Illustrative data
+LSO,Lesotho,Sub-Saharan Africa,2,National Statistics Office,2,2025-11-16,yes,no,no,no,no,Migration,Illustrative data
+MDG,Madagascar,Sub-Saharan Africa,2,National Statistics Office,0,2025-05-01,no,no,no,no,no,,Illustrative data
+MWI,Malawi,Sub-Saharan Africa,2,National Statistics Office,0,2025-05-01,no,no,no,no,no,,Illustrative data
+MUS,Mauritius,Sub-Saharan Africa,2,National Statistics Office,2,2025-10-26,yes,no,no,no,no,Urban mobility; Disaster response,Illustrative data
+MOZ,Mozambique,Sub-Saharan Africa,2,National Statistics Office,3,2026-03-13,yes,yes,no,no,no,Population mapping; Disaster response,Illustrative data
+NAM,Namibia,Sub-Saharan Africa,2,National Statistics Office,2,2025-11-18,yes,no,no,no,no,Urban mobility,Illustrative data
+SYC,Seychelles,Sub-Saharan Africa,2,National Statistics Office,3,2026-02-09,yes,yes,no,no,no,Migration; Urban mobility,Illustrative data
+ZAF,South Africa,Sub-Saharan Africa,2,National Statistics Office,4,2026-06-08,yes,yes,yes,no,no,Population mapping; Urban mobility,Illustrative data
+TZA,Tanzania,Sub-Saharan Africa,2,National Statistics Office,2,2025-09-16,yes,no,no,no,no,Population mapping,Illustrative data
+ZMB,Zambia,Sub-Saharan Africa,2,National Statistics Office,4,2026-06-23,yes,yes,yes,no,no,Population mapping,Illustrative data
+ZWE,Zimbabwe,Sub-Saharan Africa,2,National Statistics Office,4,2026-06-14,yes,yes,yes,no,no,Migration,Illustrative data
+RWA,Rwanda,Sub-Saharan Africa,1,National Statistics Office,2,2025-06-07,yes,no,no,no,no,Population mapping; Tourism,Illustrative data
+GMB,The Gambia,Sub-Saharan Africa,1,National Statistics Office,2,2025-04-19,yes,no,no,no,no,Transport,Illustrative data
+SEN,Senegal,Sub-Saharan Africa,1,National Statistics Office,3,2025-09-06,yes,yes,no,no,no,Transport; Urban mobility,Illustrative data
+GHA,Ghana,Sub-Saharan Africa,1,National Statistics Office,2,2025-05-15,yes,no,no,no,no,Tourism,Illustrative data
+COL,Colombia,Latin America & Caribbean,1,National Statistics Office,6,2026-08-09,yes,yes,yes,yes,yes,Tourism,Illustrative data
+IDN,Indonesia,East Asia & Pacific,1,National Statistics Office,6,2026-08-21,yes,yes,yes,yes,yes,Tourism; Migration,Illustrative data
+BGD,Bangladesh,South Asia,1,National Statistics Office,3,2025-10-16,yes,yes,no,no,no,Urban mobility; Transport,Illustrative data
+MAR,Morocco,Middle East & North Africa,1,National Statistics Office,2,2025-05-20,yes,no,no,no,no,Urban mobility,Illustrative data
+PHL,Philippines,East Asia & Pacific,1,National Statistics Office,6,2026-06-11,yes,yes,yes,yes,yes,Tourism,Illustrative data
