@@ -1,0 +1,8 @@
+stage,label,description
+0,Engagement / scoping,Initial conversations; country has expressed interest
+1,Readiness assessed,Maturity assessment completed
+2,Negotiating data access,MoU or data-sharing agreement with MNO(s) under discussion
+3,Data access agreed,MoU or data-sharing agreement signed
+4,Data flowing,Data received or processing infrastructure set up
+5,Indicators produced,Indicators being generated (e.g. tourism; migration; mobility)
+6,Institutionalised,Indicators published or used in policy as part of routine production

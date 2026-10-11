@@ -39,6 +39,16 @@ Key presentations from Foundations Training courses
 :::
 ::::
 
+::::{grid}
+:gutter: 2
+
+:::{grid-item-card} Where We Work
+:link: docs/where-we-work/where_we_work_index
+:link-type: doc
+Interactive maps of the countries we support: implementation status, trainings and workshops delivered, and technical assistance missions
+:::
+::::
+
 In the last 15 years, various pilot projects have demonstrated the incredible power of Mobile Phone Data (MPD) for informing decision-making and development policies. The World Bank's **Global Data Facility - Mobile Phone Data (GDF-MPD)** Program is helping low- and middle-income countries move from pilots to scale, integrating MPD into national data systems.
 
 The GDF–MPD window is the largest global initiative of its kind. We currently support 24 country programs to advance responsive statistics and policy insights through [Cohort 1](https://blogs.worldbank.org/en/opendata/working-together-to-launch-the-world-s-largest-cohort-in-mobile-) (global) and [Cohort 2](https://blogs.worldbank.org/en/opendata/dialing-up-the-use-of-mobile-phone-data-for-statistics-in-the-so) (SADC), with a goal of reaching 30 countries by 2030.

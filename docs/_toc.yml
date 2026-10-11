@@ -8,6 +8,11 @@ chapters:
       - file: docs/project-resources/maturity_assessment_framework
       - file: docs/project-resources/mou_templates
       - file: docs/project-resources/mno_questionnaire
+  - file: docs/where-we-work/where_we_work_index
+    sections:
+      - file: docs/where-we-work/mpd_status
+      - file: docs/where-we-work/trainings_workshops
+      - file: docs/where-we-work/technical_assistance
   - file: docs/methods-and-code/methods_code_index
     sections:
       - file: docs/methods-and-code/use_case_migration
