@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GDF Mobile Phone Data Program: Status Briefing</title>
+<meta name="description" content="Where the Global Data Facility Mobile Phone Data Program stands: country reach, progress, and what leaders are saying.">
+<meta property="og:title" content="Putting mobile phone data to work for policy">
+<meta property="og:description" content="Status briefing from the Global Data Facility Mobile Phone Data Program: 25 country projects, 2,700+ people trained, and a map of where the program works.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://worldbank.github.io/GDF-MPD/briefing-v2/">
+<meta property="og:image" content="https://worldbank.github.io/GDF-MPD/briefing-v2/assets/img/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Putting mobile phone data to work for policy: 25 country projects, 23 learning activities, 2,700+ people, 22 public goods.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://worldbank.github.io/GDF-MPD/briefing-v2/assets/img/og-card.png">
+<link rel="icon" href="../_static/favicon.ico">
+<link rel="preload" href="assets/fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<!-- ============================================================
+     Masthead and tab navigation
+     ============================================================ -->
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <span class="brand">
+      <img class="brand__logo" src="assets/img/gdf-logo.png" alt="Global Data Facility" width="126" height="40">
+      <span class="brand__program">Mobile Phone Data Program</span>
+    </span>
+    <div class="tabs">
+      <div class="tabs__list" role="tablist" aria-label="Briefing sections">
+        <button type="button" role="tab" id="tab-briefing" aria-controls="view-briefing" aria-selected="true" data-route="briefing">Briefing note</button>
+        <button type="button" role="tab" id="tab-progress" aria-controls="view-progress" aria-selected="false" tabindex="-1" data-route="progress">Progress at a glance</button>
+        <button type="button" role="tab" id="tab-leaders" aria-controls="view-leaders" aria-selected="false" tabindex="-1" data-route="leaders">Country leaders</button>
+        <button type="button" role="tab" id="tab-videos" aria-controls="view-videos" aria-selected="false" tabindex="-1" data-route="videos">Team videos</button>
+      </div>
+    </div>
+    <a class="masthead__link" href="../homepage.html">Knowledge portal</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================================================
+     View 1: Briefing note (landing view)
+     ============================================================ -->
+<div class="view" role="tabpanel" id="view-briefing" aria-labelledby="tab-briefing">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="hero__kicker">Status briefing, October 2026</p>
+        <h1 id="hero-title" class="hero__title" tabindex="-1">Putting mobile phone data to work for policy</h1>
+        <p class="hero__lede">The largest global initiative of its kind, helping national statistics offices, regulators and mobile operators turn anonymized mobile phone data into official statistics and better policy.</p>
+      </div>
+      <a class="minimap" href="#progress">
+        <span class="minimap__canvas" id="minimap" aria-hidden="true"></span>
+        <span class="minimap__caption"><span class="js-country-count">56</span> countries. See the map</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="brief" aria-labelledby="brief-title">
+    <div class="wrap">
+      <h2 id="brief-title">Where the program stands</h2>
+      <p class="brief__lede">Funded by the Government of Spain and delivered with the International Telecommunication Union, the program works through two pillars: operational support to country teams, and a research program that produces the methods and open algorithms countries build on. The goal is to reach 30 countries by 2030.</p>
+    </div>
+    <ul class="cohorts" aria-label="Program reach">
+      <li class="tile tile--orange">
+        <span class="tile__num">18</span>
+        <span class="tile__label">Cohort 1 countries</span>
+        <span class="tile__note">Global window, launched November 2024. Implementation concludes in late 2026; results will be shared in 2027.</span>
+      </li>
+      <li class="tile tile--teal">
+        <span class="tile__num">6</span>
+        <span class="tile__label">Cohort 2 SADC grant countries</span>
+        <span class="tile__note">And 16 trained, launched May 2025. Implementation concludes in the first half of 2027.</span>
+      </li>
+      <li class="tile tile--blue">
+        <span class="tile__num">24</span>
+        <span class="tile__label">Countries asking to join</span>
+        <span class="tile__note">Beyond the cohorts, observer countries receive advisory support.</span>
+      </li>
+    </ul>
+
+    <div class="wrap">
+      <ul class="teasers" aria-label="More in this briefing">
+        <li class="teaser teaser--orange">
+          <a href="#progress">
+            <span class="teaser__visual teaser__visual--map" id="teaser-map" aria-hidden="true"></span>
+            <span class="teaser__body">
+              <span class="teaser__title">Progress at a glance</span>
+              <span class="teaser__text">25 country projects, <span class="js-country-count">56</span> countries on the map</span>
+            </span>
+          </a>
+        </li>
+        <li class="teaser teaser--purple">
+          <a href="#leaders">
+            <span class="teaser__visual teaser__visual--quote" aria-hidden="true"><span id="teaser-quote">“With the mobile phone data approach, we are able to see up to 14 times more visitors…”</span></span>
+            <span class="teaser__body">
+              <span class="teaser__title">What leaders are saying</span>
+              <span class="teaser__text" id="teaser-quote-by">Maxat Turlubayev, Kazakhstan</span>
+            </span>
+          </a>
+        </li>
+        <li class="teaser teaser--teal">
+          <a href="#videos">
+            <span class="teaser__visual teaser__visual--video" id="teaser-video" aria-hidden="true"></span>
+            <span class="teaser__body">
+              <span class="teaser__title">Hear from the team</span>
+              <span class="teaser__text">Video: World Bank staff on what it takes to put mobile phone data to work</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     View 2: Progress at a glance (tiles and map)
+     ============================================================ -->
+<div class="view" role="tabpanel" id="view-progress" aria-labelledby="tab-progress" hidden>
+
+  <section class="glance" aria-labelledby="glance-title">
+    <div class="wrap">
+      <h2 id="glance-title" tabindex="-1">Progress at a glance</h2>
+    </div>
+    <ul class="tiles" aria-label="Progress at a glance">
+      <li class="tile tile--orange"><span class="tile__num" data-count>25</span><span class="tile__label">Country operational projects supported through Cohorts 1 and 2</span></li>
+      <li class="tile tile--blue"><span class="tile__num" data-count>23</span><span class="tile__label">Knowledge and learning activities delivered</span></li>
+      <li class="tile tile--purple"><span class="tile__num" data-count>2,700+</span><span class="tile__label">People registered for and took part in our knowledge and learning events</span></li>
+      <li class="tile tile--teal"><span class="tile__num" data-count>22</span><span class="tile__label">Knowledge and learning products delivered as global public goods</span></li>
+    </ul>
+  </section>
+
+  <section class="mapsec" aria-labelledby="map-title">
+    <div class="wrap mapsec__head">
+      <div>
+        <h2 id="map-title">Where the program works</h2>
+        <p class="mapsec__sub" id="map-summary">Loading country data…</p>
+      </div>
+      <div class="seg" role="radiogroup" aria-label="Colour the map by">
+        <button type="button" role="radio" aria-checked="true" data-mode="support">Type of support</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="maturity">Maturity stage</button>
+      </div>
+    </div>
+    <div class="wrap">
+      <figure class="map">
+        <div class="map__stage">
+        <div class="map__canvas" id="map" role="img" aria-label="World map of countries in the program"></div>
+        <div class="map__zoom" aria-label="Map zoom">
+          <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+          <button type="button" data-zoom="out" aria-label="Zoom out">−</button>
+          <button type="button" data-zoom="reset" aria-label="Reset map view">⟲</button>
+        </div>
+        <div class="map__tip" id="map-tip" role="status" hidden></div>
+        </div>
+        <figcaption>
+          <div class="legend-wrap">
+            <ul class="legend" id="legend" aria-label="Legend. Choose a category to highlight those countries"></ul>
+            <button type="button" class="legend__clear" id="legend-clear" hidden>Show all</button>
+          </div>
+          <p class="disclaimer">The boundaries, colours, denominations and any other information shown on this map do not imply any judgment on the part of the World Bank concerning the legal status of any territory or the endorsement or acceptance of such boundaries.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     View 3: What country leaders are saying
+     ============================================================ -->
+<div class="view" role="tabpanel" id="view-leaders" aria-labelledby="tab-leaders" hidden>
+  <section class="voices" aria-labelledby="voices-title">
+    <div class="wrap">
+      <h2 id="voices-title" tabindex="-1">What country leaders are saying</h2>
+      <div class="voices__body">
+        <div class="voices__main">
+          <blockquote class="quote" id="quote" aria-live="polite">
+            <p class="quote__country" id="quote-country"></p>
+            <p class="quote__text" id="quote-text"></p>
+            <footer class="quote__by" id="quote-by"></footer>
+          </blockquote>
+          <div class="pager" aria-label="Choose a leader">
+            <button type="button" class="pager__btn" id="leader-prev" aria-label="Previous leader">←</button>
+            <span class="pager__count" id="leader-count" aria-live="polite">1 of 5</span>
+            <button type="button" class="pager__btn" id="leader-next" aria-label="Next leader">→</button>
+          </div>
+        </div>
+        <ul class="people" id="people" role="tablist" aria-label="Choose a leader"></ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     View 4: Hear from the team (videos)
+     Each .player becomes a video card. To add a video, copy one .player
+     line and edit its data attributes:
+       data-yt          YouTube video ID
+       data-title       card title
+       data-description one-line description
+       data-speakers    speaker names
+       data-duration    running time, e.g. 4:12
+     Values in [square brackets] are placeholders to replace.
+     The first video is shown large; any further videos form a grid below it.
+     ============================================================ -->
+<div class="view" role="tabpanel" id="view-videos" aria-labelledby="tab-videos" hidden>
+  <section class="video" aria-labelledby="video-title">
+    <div class="wrap">
+      <h2 id="video-title" tabindex="-1">Hear from the team</h2>
+      <p class="video__sub">World Bank staff who worked on the program describe what it takes to put mobile phone data to work.</p>
+      <div class="videos">
+        <div class="player" data-yt="ZfcuvhtNQRU"
+             data-title="Hear from the team"
+             data-description="[One-line description of this video]"
+             data-speakers="[Speaker names]"
+             data-duration="[m:ss]"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <img class="foot__logos" src="assets/img/GDF-MPD_logo_group.png" width="520" height="60"
+         alt="Global Data Facility, Government of Spain, the World Bank and the International Telecommunication Union (ITU)">
+    <p>Global Data Facility, Mobile Phone Data Program. A World Bank Group program funded by the Government of Spain, with the International Telecommunication Union as technical partner.</p>
+    <p><a href="../homepage.html">Visit the GDF-MPD Knowledge Portal</a> for training material, templates and methods. Figures as of October 2026.</p>
+    <p class="foot__draft"><span class="draft-label">Draft v2</span> 11 October 2026</p>
+  </div>
+</footer>
+
+<script src="assets/vendor/d3.min.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
