@@ -1,8 +1,6 @@
-# Executive briefing microsite
+# Spain Briefing Microsite
 
-A short briefing site for executives on the Global Data Facility Mobile Phone
-Data Program. It's plain HTML, CSS and JavaScript with no build step, and the
-portal's Jupyter Book build copies it to the live site unchanged.
+I have mostly vibe-coded this. It's plain HTML, CSS and JavaScript with no build step, and the portal's Jupyter Book build copies it to the live site unchanged.
 
 ## Versions
 
@@ -14,11 +12,6 @@ Each folder here is one version of the site and publishes at its own address:
 | `briefing-v2/` | https://worldbank.github.io/GDF-MPD/briefing-v2/ | Draft v2 |
 | `briefing-v3/` | https://worldbank.github.io/GDF-MPD/briefing-v3/ | Draft v3 |
 
-New ideas go into a new version folder, so earlier versions stay untouched for
-comparison. When a version is approved, its contents are copied into
-`briefing/`, so the link executives already have never changes.
-
-**Edit only the latest version folder** unless you've agreed otherwise.
 
 ## Where the text lives
 
@@ -65,12 +58,7 @@ first entry in `LEADERS`.
 
 ## Checking the country data
 
-The map is drawn from one spreadsheet, saved as a CSV file (it opens in Excel):
-
 **[`briefing-v2/data/country_support.csv`](https://github.com/worldbank/GDF-MPD/blob/main/_extra/briefing-v2/data/country_support.csv)**
-
-GitHub shows it as a table you can search. To open it in Excel, click
-**"Download raw file"** (the download icon above the table).
 
 It lists every country, with these columns:
 
@@ -82,63 +70,11 @@ It lists every country, with these columns:
 | `maturity_status` | `Pre-Foundation`, `Foundation` or `Practitioner` (as in the briefing note) |
 | `mou_status` | MOU / data-sharing status, copied from the briefing note |
 
-Only the 56 rows with a `support_type` appear on the map. To find them
-quickly in Excel, filter `support_type` to exclude blanks.
 
-**Please check in particular:**
-- that each program country has the right `support_type` and
-  `maturity_status`
-- the `mou_status` wording, which appears in the map's pop-ups and is visible
-  to anyone who opens the site
-
-**To correct the data**, either:
-- tell the team which rows to change, or
-- edit the file in Excel and save it with **File > Save As > "CSV UTF-8
-  (Comma delimited)"**. Plain "CSV" breaks the accents in names like
-  Côte d'Ivoire and São Tomé and Príncipe. Keep the column names and order
-  exactly as they are.
 
 Each version folder has its own copy of this file (`briefing/data/`,
 `briefing-v2/data/`, …), and they're currently identical. A correction needs
 to go into every version that's in use.
 
-## Rules for safe editing
 
-- **Change only the text between the tags.** In
-  `<span class="teaser__title">Progress at a glance</span>`, edit only
-  "Progress at a glance".
-- **Keep `<b>…</b>` tags** around words that should stay bold.
-- **Tab names live in two places:** the tab buttons in `index.html` and
-  `ROUTES` in `site.js`. Change both.
-- **Don't type the country count (56).** Anything inside
-  `<span class="js-country-count">` is filled in automatically from the map
-  data.
-- **Quotes in `site.js`** sit inside straight double quotes (`"…"`). If the
-  text itself needs quotation marks, use curly ones (“ ”), otherwise the page
-  breaks.
-- **Stat numbers:** keep the current format ("2,700+" is fine). The count-up
-  animation reads the number from the text.
-- **Leave the `data/` and `assets/` folders alone** unless you're
-  deliberately changing the map data, styles or code.
 
-## Making a change
-
-1. Open the file on GitHub and click the pencil icon.
-2. Edit the text.
-3. Choose **"Create a new branch for this commit and start a pull request"**.
-4. Once the pull request is merged into `main`, the site updates within a few
-   minutes.
-
-## Previewing before you merge (optional)
-
-From the repository root:
-
-```bash
-jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml
-cd _build/html
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000/briefing-v3/` (or the version you edited).
-Opening `index.html` directly from disk won't load the map; it needs the
-local server.
