@@ -80,7 +80,8 @@
   let mode = "support";
   let rows = new Map();   // iso3 -> row
   let geo = null;
-  let svg, gRoot, zoom, pinged = false;
+  let svg, gRoot, zoom, pingObserver, pinged = false;
+  let drawnWidth = 0;     // width the map was last drawn at (0 = not drawn yet)
 
   function maturityBucket(v) {
     if (!v) return "";
@@ -247,9 +248,20 @@
     return best;
   }
 
+  // The map lives in a view that may be hidden, where it has zero width. Draw it the first
+  // time it is visible, and redraw only when its width has changed since the last draw.
+  function ensureMap() {
+    if (!geo) return;                       // data still loading; the loader calls this again
+    const w = mapEl.clientWidth;
+    if (!w || w === drawnWidth) return;     // hidden, or already drawn at this width
+    drawnWidth = w;
+    drawMap();
+  }
+
   // One orchestrated moment: a signal sweep west to east when the map first scrolls into view.
   function observePing() {
-    const io = new IntersectionObserver(entries => {
+    if (pingObserver) pingObserver.disconnect();   // a redraw replaces any pending observer
+    const io = pingObserver = new IntersectionObserver(entries => {
       if (!entries.some(e => e.isIntersecting)) return;
       io.disconnect();
       pinged = true;
@@ -304,13 +316,14 @@
       geo = g;
       renderSummary();
       renderLegend();
-      drawMap();
+      const teaserCount = document.getElementById("teaser-countries");
+      if (teaserCount) teaserCount.textContent = rows.size;
+      ensureMap();                          // draws now only if the Progress view is open
       let t;
       window.addEventListener("resize", () => {
         clearTimeout(t);
-        t = setTimeout(() => { const w = mapEl.clientWidth; if (w !== drawMap._w) { drawMap._w = w; drawMap(); } }, 200);
+        t = setTimeout(ensureMap, 200);
       });
-      drawMap._w = mapEl.clientWidth;
     })
     .catch(err => {
       console.error(err);
@@ -354,13 +367,107 @@
   });
   selectLeader(0);
 
+  // Teaser on the Briefing note view: the opening words of the first quote.
+  const teaserQuote = document.getElementById("teaser-quote");
+  if (teaserQuote) {
+    const words = LEADERS[0].quote.split(" ");
+    teaserQuote.textContent = `“${words.slice(0, 17).join(" ").replace(/[,.;:]$/, "")}${words.length > 17 ? "…" : ""}”`;
+  }
+
   // ============================================================
-  // Video (click-to-load, privacy-enhanced embed)
+  // Videos (click-to-load, privacy-enhanced embed)
+  // Works for every .player on the page: to add a video, copy a .player block
+  // in index.html and change its data-yt ID, thumbnail and aria-label.
   // ============================================================
-  const player = document.getElementById("player");
-  player.querySelector(".player__btn").addEventListener("click", () => {
-    const id = player.dataset.yt;
-    player.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0" ` +
-      `title="Hear from the team" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  const players = [...document.querySelectorAll(".player")];
+  const playerCovers = new Map(players.map(p => [p, p.innerHTML]));   // the click-to-play cover
+
+  document.addEventListener("click", e => {
+    const btn = e.target.closest(".player__btn"); if (!btn) return;
+    const player = btn.closest(".player");
+    const title = (btn.getAttribute("aria-label") || "Video").replace(/^Play video:\s*/, "");
+    player.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${player.dataset.yt}?autoplay=1&rel=0" ` +
+      `title="${title}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen"></iframe>`;
   });
+
+  // Stop playback by putting the cover back in place of any loaded player.
+  function stopVideos() {
+    playerCovers.forEach((cover, player) => {
+      if (player.querySelector("iframe")) player.innerHTML = cover;
+    });
+  }
+
+  // ============================================================
+  // Views and tab navigation (hash routing)
+  // #briefing (default), #progress, #leaders, #videos
+  // ============================================================
+  const SITE_NAME = "GDF Mobile Phone Data Program";
+  const ROUTES = {
+    briefing: "Briefing note",
+    progress: "Progress at a glance",
+    leaders: "Country leaders",
+    videos: "Team videos",
+  };
+  const DEFAULT_ROUTE = "briefing";
+  const tabs = [...document.querySelectorAll('.tabs__list [role="tab"]')];
+  let current = null;
+
+  function routeFromHash() {
+    const r = location.hash.replace(/^#/, "");
+    return Object.prototype.hasOwnProperty.call(ROUTES, r) ? r : null;
+  }
+
+  function showView(route, { initial = false } = {}) {
+    if (route === current) return;
+    const previous = current;
+    current = route;
+
+    tabs.forEach(tab => {
+      const on = tab.dataset.route === route;
+      tab.setAttribute("aria-selected", String(on));
+      tab.tabIndex = on ? 0 : -1;
+      document.getElementById(tab.getAttribute("aria-controls")).hidden = !on;
+      if (on) tab.scrollIntoView({ block: "nearest", inline: "nearest" });   // keep it in the mobile tab row
+    });
+
+    if (previous === "videos") stopVideos();
+    if (previous === "progress") hideTip();
+    if (route === "progress") ensureMap();
+
+    document.title = `${ROUTES[route]} | ${SITE_NAME}`;
+    if (initial) return;                     // on first load, leave focus and scroll to the browser
+    window.scrollTo({ top: 0, behavior: "instant" });
+    const heading = document.querySelector(`#view-${route} [tabindex="-1"]`);
+    if (heading) heading.focus({ preventScroll: true });
+  }
+
+  window.addEventListener("hashchange", () => {
+    const route = routeFromHash();
+    if (!route) { history.replaceState(null, "", `#${DEFAULT_ROUTE}`); }
+    showView(route || DEFAULT_ROUTE);
+  });
+
+  // Tabs change the hash, so back/forward and deep links all go through hashchange.
+  tabs.forEach(tab => tab.addEventListener("click", () => {
+    if (tab.dataset.route === current) return;
+    location.hash = tab.dataset.route;
+  }));
+
+  // Arrow keys, Home and End move focus between tabs; Enter or Space opens the focused tab.
+  document.querySelector(".tabs__list").addEventListener("keydown", e => {
+    const i = tabs.indexOf(document.activeElement); if (i < 0) return;
+    let next = null;
+    if (e.key === "ArrowRight") next = (i + 1) % tabs.length;
+    else if (e.key === "ArrowLeft") next = (i - 1 + tabs.length) % tabs.length;
+    else if (e.key === "Home") next = 0;
+    else if (e.key === "End") next = tabs.length - 1;
+    if (next === null) return;
+    e.preventDefault();
+    tabs[next].focus();
+    tabs[next].scrollIntoView({ block: "nearest", inline: "nearest" });
+  });
+
+  const initialRoute = routeFromHash();
+  if (location.hash && !initialRoute) history.replaceState(null, "", `#${DEFAULT_ROUTE}`);
+  showView(initialRoute || DEFAULT_ROUTE, { initial: true });
 })();
