@@ -6,7 +6,7 @@ The GDF-MPD operations pillar provides grants, advisory services, and technical 
 ## Progress At a Glance
  -->
 
-## Where the Program Works
+## Country Map
 
 <iframe src="../../briefing/index.html?embed=map" width="100%" height="760" style="border:0;" loading="lazy" title="Map of countries supported, by type of support and maturity stage"></iframe>
 
