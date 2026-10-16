@@ -8,7 +8,7 @@ The GDF-MPD operations pillar provides grants, advisory services, and technical 
 
 ## Where the Program Works
 
-<iframe src="../../briefing/index.html?embed=map" width="100%" height="640" style="border:0;" loading="lazy" title="Map of countries supported, by type of support and maturity stage"></iframe>
+<iframe src="../../briefing/index.html?embed=map" width="100%" height="760" style="border:0;" loading="lazy" title="Map of countries supported, by type of support and maturity stage"></iframe>
 
 <!--
 ## Explore
