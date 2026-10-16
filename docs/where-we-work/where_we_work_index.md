@@ -1,6 +1,8 @@
-# Where we work
+# Grant Support Program
 
-The GDF-MPD program works with National Statistics Offices, regulators and Mobile Network Operators to bring Mobile Phone Data (MPD) into national data systems. This section tracks that work country by country: the **trainings and workshops** delivered, the **technical assistance** our staff provide, and how far each country has progressed in **using MPD**.
+The GDF-MPD operations pillar provides grants, advisory services, and technical support to World Bank country teams. These teams work with clients across each country’s mobile phone data (MPD) ecosystem, mainly National Statistics Offices, regulators, and Mobile Network Operators.
+
+This section tracks each country’s initiative: trainings and workshops delivered (by core team), technical assistance provided, and maturity in using MPD.
 
 ```{admonition} Illustrative data
 :class: warning
