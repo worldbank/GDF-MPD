@@ -27,7 +27,7 @@ Where each country is, from scoping and negotiating data access to producing ind
 :link-type: doc
 Capacity-building events delivered, with links to their materials.
 :::
- -->
+
 :::{grid-item-card} Technical assistance
 :link: technical_assistance
 :link-type: doc
