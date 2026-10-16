@@ -18,6 +18,34 @@
 <link rel="icon" href="../_static/favicon.ico">
 <link rel="preload" href="assets/fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/site.css">
+     <script>
+  // Map-only mode: load this page with ?embed=map to show just the map section
+  (function () {
+    if (new URLSearchParams(location.search).get('embed') !== 'map') return;
+    document.documentElement.classList.add('embed-map');
+    document.addEventListener('DOMContentLoaded', function () {
+      var sec = document.querySelector('.mapsec');
+      if (!sec) return;
+      // Hide everything on the page except scripts
+      Array.from(document.body.children).forEach(function (el) {
+        if (el.tagName !== 'SCRIPT') el.style.display = 'none';
+      });
+      // Move the map section to the top of the page so tabs can't hide it
+      document.body.insertBefore(sec, document.body.firstChild);
+      sec.hidden = false;
+      sec.style.display = 'block';
+      document.documentElement.classList.add('embed-ready');
+      // Let the map redraw at its new size
+      setTimeout(function () { window.dispatchEvent(new Event('resize')); }, 50);
+    });
+  })();
+</script>
+<style>
+  .embed-map body { visibility: hidden; margin: 0; padding: 0; background: #fff; }
+  .embed-map.embed-ready body { visibility: visible; }
+  .embed-map .mapsec { margin: 0; padding: 8px 0 0; }
+  .embed-map #map-title { display: none; } /* your .md page already has this heading */
+</style>
 </head>
 <body>
 
