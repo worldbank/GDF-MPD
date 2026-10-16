@@ -1,4 +1,4 @@
-# Grant Support Program
+# Support Program Footprint
 
 The GDF-MPD operations pillar provides grants, advisory services, and technical support to World Bank country teams. These teams work with clients across each country’s mobile phone data (MPD) ecosystem, mainly National Statistics Offices, regulators, and Mobile Network Operators.
 
