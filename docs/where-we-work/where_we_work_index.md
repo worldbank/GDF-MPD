@@ -8,9 +8,7 @@ The GDF-MPD operations pillar provides grants, advisory services, and technical 
 
 ## Where the Program Works
 
-Each country is shaded by its current maturity phase.
-
-<iframe src="../../_static/where-we-work/map_status.html" width="100%" height="560" title="Map of MPD implementation stage by country"></iframe>
+<iframe src="../../briefing/index.html?embed=map" width="100%" height="640" style="border:0;" loading="lazy" title="Map of countries supported, by type of support and maturity stage"></iframe>
 
 <!--
 ## Explore
